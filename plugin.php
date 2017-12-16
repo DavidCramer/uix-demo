@@ -47,5 +47,5 @@ function register_ui_folders( $uix ) {
  **/
 function uix_dev_php_ver() {
 	$message = __( 'This Demo requires PHP version 5.6 or later.', 'uix-demo' );
-	echo wp_kses_post( '<div id="gymalie_game_error" class="error notice notice-error"><p>' . esc_html( $message ) . '</p></div>', wp_kses_allowed_html( 'post' ) );
+	echo wp_kses_post( '<div id="uix_demo_error" class="error notice notice-error"><p>' . esc_html( $message ) . '</p></div>', wp_kses_allowed_html( 'post' ) );
 }
